@@ -7,6 +7,8 @@ class BasicEnumsTest < Minitest::Test
     s = ''
     5.times do   
       s << 'x'
+      #s = s + 'x'
+      # s += 'x
       puts s  
     end
     assert_equal 'xxxxx', s
